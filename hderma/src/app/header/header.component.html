@@ -1,0 +1,48 @@
+<div class="voucher">
+    <p class="text-center py-1 h-[40px]" style="background:#79a3dc;">
+        <strong class="text-white text-sm font-bold">NHẬP MÃ LANE80 - GIẢM 80K CHO ĐƠN 800K</strong>
+    </p>
+</div>
+<div class="header w-full">
+    <div class="container mx-auto hidden py-1 lg:flex items-center justify-between">
+        <div class="logo">
+            <a href="#">
+                <img src="https://www.laneige.com.vn/static/version1668649751/frontend/Laneige/vn/vi_VN/images/logo.svg" alt="" width="122" height="33">
+            </a>
+        </div>
+        <div class="menu">
+            <ul class="hidden lg:flex items-center py-2">
+                <li *ngFor="let item of items" class="cursor-pointer pl-5 uppercase whitespace-nowrap">
+                    <span>{{item.menu}}</span>
+                </li>
+            </ul>
+        </div>
+        <div class="icon">
+            <div class="flex items-center space-x-3">
+                <span class="material-icons cursor-pointer text-2xl">person</span>
+                <span class="material-icons cursor-pointer text-2xl">location_on</span>
+                <span class="material-icons cursor-pointer text-2xl">search</span>
+                <span class="material-icons cursor-pointer text-2xl">shopping_cart</span>
+            </div>
+        </div>
+    </div>
+    <div class="w-[95%] mx-auto flex lg:hidden py-1 justify-between">
+        <div class="flex">
+            <span class="material-icons" style="color: #79a3dc;">menu</span>
+            <a href="#" class="logo-desk">
+                <img src="https://www.laneige.com.vn/static/version1668649751/frontend/Laneige/vn/vi_VN/images/logo.svg" alt="" width="122" height="33">
+            </a>
+        </div>
+        <div class="logo-mob flex absolute left-[38%] h-full">
+            <a href="#" class="">
+                <img src="https://www.laneige.com.vn/static/version1668649751/frontend/Laneige/vn/vi_VN/images/logo.svg" alt="" width="122" height="33">
+            </a>
+        </div>
+        <div class="icon">
+            <div class="flex items-center space-x-3">
+                <span class="material-icons cursor-pointer text-2xl">search</span>
+                <span class="material-icons cursor-pointer text-2xl">shopping_cart</span>
+            </div>
+        </div>
+    </div>
+</div>

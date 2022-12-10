@@ -1,0 +1,105 @@
+.container {
+    font-size: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    .img{
+        width: calc(50% - 10px);
+    }
+    .txt h3 {
+        font-size: 28px;
+        line-height: 1.5;
+        color: #333;
+    }
+    p {
+        margin-top: 34px;
+        font-size: 17px;
+        line-height: 1.5;
+        letter-spacing: -0.045em;
+    }
+    p:last-of-type {
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 0;
+    }
+    @media only screen and (max-width: 1240px){
+        max-width: 1000px;
+        .txt h3 {
+            font-size: 18px;
+        }
+        p {
+            margin-top: 20px;
+            font-size: 15px;
+        }
+        p:last-of-type {
+            font-size: 15px;
+        }
+    }
+    @media only screen and (max-width: 1080px){
+        max-width: 800px;
+        p {
+            margin-top: 10px;
+            font-size: 15px;
+        }
+    }
+}
+.desktop{
+    @media only screen and (max-width: 750px){
+        display: none;
+    }
+}
+.mobile{
+    @media only screen and (min-width: 750px){
+        display: none;
+    }
+    h3{
+        font-size: 35px;
+        line-height: 1.5;
+    }
+    p {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    p:last-of-type {
+        font-size: 25px;
+    }
+    @media only screen and (max-width: 540px){
+        h3{
+            font-size: 25px;
+            line-height: 1.5;
+        }
+        p {
+            margin-top: 15px;
+            font-size: 20px;
+        }
+        p:last-of-type {
+            font-size: 20px;
+        }   
+    }
+    @media only screen and (max-width: 500px){
+        h3{
+            font-size: 20px;
+            line-height: 1.5;
+        }
+        p {
+            margin-top: 0;
+            font-size: 15px;
+        }
+        p:last-of-type {
+            margin-top: 0;
+            font-size: 15px;
+        }   
+    }
+    @media only screen and (max-width: 320px){
+        h3{
+            font-size: 15px;
+        }
+        p {
+            margin-top: 10px;
+            font-size: 10px;
+        }
+        p:last-of-type {
+            font-size: 10px;
+        }   
+    }
+}

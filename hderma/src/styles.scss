@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+    font-size: 18px;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.center-y {
+    transform: translateY(-50%);
+}
+.swiper-pagination-bullet {
+    padding: 5px!important;
+}
+
+.swiper-pagination-bullet-active {
+    padding: 5px!important;
+    width: 20px!important;
+    background: #5D5A5A!important;
+    border-radius: 20px!important;
+}
+.desktop{
+    @media only screen and (max-width: 750px){
+        display: none;
+    }
+}
+.mobile{
+    @media only screen and (min-width: 750px){
+        display: none;
+    }
+}
