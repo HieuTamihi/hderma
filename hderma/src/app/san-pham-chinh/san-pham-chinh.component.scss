@@ -10,15 +10,15 @@
         max-width: 900px;
     }
     @media only screen and (max-width: 320px){
-        img{
-            width: 50%;
-        }
-        h3{
-            font-size: 25px;
-        }
-        p{
-            font-size: 10px;
-        }
+        // img{
+        //     width: 50%;
+        // }
+        // h3{
+        //     font-size: 25px;
+        // }
+        // p{
+        //     font-size: 10px;
+        // }
     }
 }
 .swiper-slide {
@@ -112,21 +112,21 @@
     @media screen and (max-width: 400px) {
         height: 200vw;
         .title span{
-            font-size: 50px;
+            font-size: 60px;
         }
         .title span:last-of-type{
-            font-size: 15px;
+            font-size: 20px;
             line-height: 1.2;
         }
         .des
         {
             h3{
-                font-size: 15px;
+                font-size: 20px;
                 line-height: 1.2;
                 margin-top: 10px;
             }
             h4{
-                font-size: 13px;
+                font-size: 15px;
                 line-height: 1.2;
             }
         }
@@ -143,7 +143,7 @@
     @media screen and (max-width: 320px) {
         height: 250vw;
         .title span{
-            font-size: 40px;
+            font-size: 50px;
         }
         .title span:last-of-type{
             font-size: 10px;
@@ -220,4 +220,3 @@
     background: #eef8f8;
     z-index: -1;
 }
-
